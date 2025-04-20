@@ -1,0 +1,15 @@
+﻿<Project Sdk="Microsoft.NET.Sdk">
+
+  <PropertyGroup>
+    <TargetFramework>net8.0</TargetFramework>
+    <ImplicitUsings>enable</ImplicitUsings>
+    <Nullable>enable</Nullable>
+  </PropertyGroup>
+
+  <ItemGroup>
+    <ProjectReference Include="..\..\src\SMM.Application\SMM.Application.csproj" />
+    <ProjectReference Include="..\..\src\SMM.Contracts\SMM.Contracts.csproj" />
+    <ProjectReference Include="..\..\src\SMM.Shared\SMM.Shared.csproj" />
+  </ItemGroup>
+
+</Project>

@@ -1,0 +1,45 @@
+# Build
+bin/
+obj/
+out/
+
+# Rider
+.idea/
+*.sln.iml
+
+# Visual Studio
+.vs/
+
+# User-specific files
+*.suo
+*.user
+*.userosscache
+*.sln.docstates
+
+# VS Code
+.vscode/
+
+# Secrets
+secrets.json
+*.secret
+
+# Docker
+*.tar
+*.img
+.env
+docker-compose.override.yml
+
+# Logs
+*.log
+
+# NuGet
+*.nupkg
+.nuget/
+
+# Publish
+publish/
+artifacts/
+
+# OS-specific
+.DS_Store
+Thumbs.db
